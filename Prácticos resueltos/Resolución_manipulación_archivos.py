@@ -102,7 +102,7 @@ def word_counter (archivo):
     word_counter(r"Martina\UCEMA\2022_Primer_Cuatri\Informática\Fundamentos_de_informatica-master\Python_intro\manipulacion_archivos.txt")
     #No se que devuelve
 
-#EJERCICIO 10:
+#EJERCICIO 10:###########
 
 import glob
 import os
