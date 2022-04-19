@@ -71,7 +71,7 @@ eliminar_saltos(r"Martina\UCEMA\2022_Primer_Cuatri\Informática\Fundamentos_de_i
 
 def palabra_mas_larga(archivo):
     with open(archivo, "r") as miarch:
-        word_list1 = 
+        word_list1 = []
         
         miarch.read().split()
         palabra = word_list1[0]
