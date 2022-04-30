@@ -1,0 +1,1 @@
+# Realizar un programa que lea tres números por teclado y calcule el promedio de ellos
