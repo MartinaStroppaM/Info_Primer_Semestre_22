@@ -1,4 +1,3 @@
-from tkinter.messagebox import RETRY
 
 class AnimalAlado:
   def esta_feliz(self):
@@ -65,12 +64,37 @@ class Entrenador:
     for dragon in self.equipo:
       self.entrenar_dragon(dragon)
       """Self va afuera porque es un método propio del entrenador"""
-    
+
+  def entrenar_golondrina(self, golondrina):
+    for i in range(20):
+      golondrina.volar_en_circulos()
+    golondrina.comer_alpiste(600)
+
+  def entrenamiento_intensivo(self):
+    for equipo in self.equipo:
+      pass
+
+class AvesNoVoladoras:
+  def __init__(self, energia):
+    self.energia = energia
+
+  def comer_alpiste(self, gramos):
+    self.energia += 4 * gramos
+
+  def correr_en_circulos(self):
+    self.correr(0)
+
+  def correr(self, kms):
+    self.energia -= 10 + kms
+
+  """Las AvesNoVoladoras son parcialmente polimorficas con las aves Golondrinas.
+  Comparten el método comer alpiste."""
 
 pepita = Golondrina(100)
 juanita = Golondrina(100)
 anastasia = Golondrina(200)
+maria = Golondrina(42)
 roberta = Dragon(10, 1000)
-chimuelo = Dragon(200, 2000)
+chimuelo = Dragon(200, 1000)
 
 hipo = Entrenador([roberta]) 
