@@ -4,8 +4,10 @@ import re
 
 def substrings(string):
     lista = re.findall("[@|&](.*?)[@|&]", string)
-    return lista, re.search("[@|&](.*?)[@|&]", string)
+    lista2 = []
+    for i in lista:
+        lista2.append(string.index(i))
+    return lista, lista2
 
 print(substrings("@hola@ @como estas& @como"))
-
-#No se como hacer para que el search me devuelva la posición sin los delimitadores y además todas las posiciones no solo la primera aparición.
+ 
