@@ -1,4 +1,3 @@
-import re
 import requests
 
 pedido1 = requests.get("https://macowins-server.herokuapp.com/ventas")
