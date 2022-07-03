@@ -1,0 +1,61 @@
+h1{
+    background-color: tomato;
+    color: blueviolet; /* Color del texto */
+    width: 35%; /* Largo del background */
+    height: 40px; /* Alto del background */
+    padding-top: 0.1cm; /* Espacio entre el backgroud y donde empieza la letra */
+    padding-left: 0.5cm;
+    font-size: xx-large;
+    margin-top: 0cm;
+}
+
+.General{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    color: ghostwhite;
+    width: 50%;
+    height: 10.2cm;
+    padding-top: 0.15cm;
+    margin-bottom: 0.015cm;
+    margin-top: 0.015cm;
+}
+
+h2{
+    padding-left: 0.5cm;
+    margin-top: 0.3cm;
+    margin-bottom: 0.1cm;
+    padding-top: 0cm;
+    padding-bottom: 0.25cm;
+}
+h3{
+    padding-left: 0.5cm;
+    margin-top: 0cm;
+    padding-top: 0cm;
+}
+
+.Sucursales{
+    background-color: ghostwhite;
+    color:mediumpurple;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+}
+
+.Sucursales img{
+    float: right;
+    padding-right: 8cm;
+}
+
+/* 
+OTRA FORMA DE MAQUETAR LA IMAGEN
+img {
+    height: 4cm;
+    position: absolute;
+    padding-left: 6cm;
+}
+*/
+
+.Pie-de-pagina{
+    text-align: center;
+    padding-bottom: 1px;
+}
+
